@@ -58,10 +58,11 @@ Add a new item.
 
 ```php
 Item | null Cart::add(
-                    string | int $id,
+                    string | int $product_id,
                     string $name,
                     int $quantity,
-                    int | float $price
+                    int | float $price,
+                    int $parent_id,
                     [, array $attributes = []]
                  );
 ```
@@ -69,7 +70,7 @@ Item | null Cart::add(
 **example:**
 
 ```php
-$row = Cart::add(37, 'Item name', 5, 100.00, ['color' => 'red', 'size' => 'M']);
+$row = Cart::add(37, 'Item name', 5, 100.00, 0, ['color' => 'red', 'size' => 'M']);
 // Item:
 //    id       => 37
 //    name     => 'Item name'
