@@ -6,7 +6,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/ibrand/laravel-shopping-cart/v/unstable)](https://packagist.org/packages/ibrand/laravel-shopping-cart)
 [![License](https://poser.pugx.org/ibrand/laravel-shopping-cart/license)](https://packagist.org/packages/ibrand/laravel-shopping-cart)
 
-购物车在电商场景中基本是必须的一个模块，本包是基于 [overtrue/laravel-shopping-cart][1] 进行扩展开发，主要实现了以下扩展：
+购物车在电商场景中基本是必须的一个模块，本包是基于 [overtrue/laravel-shopping-cart][1] 进行扩展开发，主要实现了以下扩展： 
 
 1. 购物车数据支持 Database 存储
 2. 新增购物车数据支持 组合商品关联关系 存储
