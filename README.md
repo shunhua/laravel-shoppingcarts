@@ -18,7 +18,7 @@
 ## Installation
 
 ```
-composer require shunhua/laravel-shoppingcarts
+composer require shunhua/laravel-shoppingcarts:^1.0
 ```
 
 ```
